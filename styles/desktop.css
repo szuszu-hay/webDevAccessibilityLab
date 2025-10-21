@@ -13,14 +13,23 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+header h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 header h1 a:hover {
   text-decoration: underline;
+  color: #ffffff
 }
+
 #logo {
   padding: 10px;
 }
+
 nav li a:hover {
-  color: #7e8aa2;
+  color: #fdfdfd;
 }
 nav ul {
   padding: 10px;
@@ -29,7 +38,7 @@ nav ul {
 }
 nav ul li {
   border: none;
-  border-left: 1px solid #7e8aa2;
+  border-left: 1px solid hsl(0, 0%, 100%);
 }
 nav li:first-child {
   border-left: none;
